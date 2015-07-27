@@ -9,5 +9,17 @@ body, p {
 }
 
 header {
-  height: 50%;
+  height: 50% !important;
+}
+
+a {
+  color: rgb(35,135,158);
+}
+
+a:hover {
+  color: rgb(49,53,64);
+}
+
+.nav {
+  background-color: #ff9933;
 }
