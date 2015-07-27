@@ -9,7 +9,7 @@ body, p {
 }
 
 header {
-  height: 50% !important;
+  max-height: 75% !important;
 }
 
 a {
@@ -22,4 +22,5 @@ a:hover {
 
 .nav {
   background-color: #ff9933;
+  color: #fafafa;
 }
