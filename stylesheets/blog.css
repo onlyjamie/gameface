@@ -9,7 +9,7 @@ body, p {
   font-weight: 100 !important;
 }
 
-.page-description, footer {
+.page-description, .post-meta, footer {
   font-family: 'Museo Sans', 'Lato', sans-serif !important; 
   font-weight: normal;
 }
