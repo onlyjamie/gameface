@@ -14,6 +14,11 @@ body, p {
   font-weight: normal;
 }
 
+blockquote {
+  color: #ccc;
+  border-left: #ccc 0.4em solid;
+  font-size: 1.5em;
+}
 header {
   max-height: 50rem !important;
 }
