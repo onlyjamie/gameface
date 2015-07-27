@@ -9,7 +9,7 @@ body, p {
   font-weight: 100 !important;
 }
 
-.page-description, .post-meta, footer {
+.page-description, .post-meta, .pagination, footer {
   font-family: 'Museo Sans', 'Lato', sans-serif !important; 
   font-weight: normal;
 }
@@ -19,7 +19,7 @@ header {
 }
 
 .blog-logo img {
-  max-width: 100%;
+  max-width: 150px;
 }
 
 a {
