@@ -15,10 +15,12 @@ body, p {
 }
 
 blockquote {
-  color: #ccc;
-  border-left: #ccc 0.4em solid;
+  color: #aaa;
+  border-left: #aaa 0.4em solid;
   font-size: 1.5em;
+  font-family: 'Domine', serif;
 }
+
 header {
   max-height: 50rem !important;
 }
