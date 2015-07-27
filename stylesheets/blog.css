@@ -18,6 +18,10 @@ header {
   max-height: 50rem !important;
 }
 
+.blog-logo img {
+  max-width: 100%;
+}
+
 a {
   color: rgb(35,135,158);
 }
