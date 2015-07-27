@@ -1,3 +1,5 @@
+/* GENERAL STYLES */
+
 h1, h2, h3, h4, h5, h6, h7 {
   font-family: 'Domine', serif !important;
   font-weight: bold;
@@ -15,9 +17,9 @@ body, p {
 }
 
 blockquote {
-  color: #aaa;
+  color: #aaa !important;
   border-left: #aaa 0.4em solid;
-  font-size: 1.5em;
+  font-size: 1.5em !important;
   font-family: 'Domine', serif !important;
 }
 
@@ -25,9 +27,10 @@ header {
   max-height: 50rem !important;
 }
 
-.blog-logo, .blog-logo img {
-  max-width: 250px !important;
-}
+/* 
+.blog-logo, .blog-logo img { max-width: 250px !important; } 
+.nav { background-color: #ff9933; color: #fafafa; }
+*/
 
 a {
   color: rgb(35,135,158);
@@ -37,7 +40,30 @@ a:hover {
   color: rgb(49,53,64);
 }
 
-.nav {
-  background-color: #ff9933;
-  color: #fafafa;
+/* THEME OVERRIDES */
+.navbar {
+  background: rgb(29,32,41);
+  border-bottom: 5px solid #ff9933;
+}
+
+.navbar-default .navbar-brand {
+  color: #ff9933;
+}
+
+.nav>li>a {
+  color: #787870 !important;
+}
+
+.first-article {
+  height: 50%;
+  margin-bottom: 1px;
+}
+
+.post-head {
+  position: absolute !important;
+  bottom: 25% !important;
+}
+
+.footer {
+  background: rgb(49,53,64);
 }
