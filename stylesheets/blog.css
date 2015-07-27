@@ -1,0 +1,13 @@
+h1, h2, h3, h4, h5, h6, h7 {
+  font-family: 'Domine', serif !important;
+  font-weight: bold;
+  text-transform: none;
+}
+
+body, p {
+  font-family: 'Museo Sans', 'Lato', sans-serif;
+}
+
+header {
+  height: 50%;
+}
