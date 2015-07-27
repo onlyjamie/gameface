@@ -6,6 +6,8 @@ h1, h2, h3, h4, h5, h6, h7 {
   text-transform: none;
 }
 
+h5 { color: #ff9933 !important; }
+
 body, p {
   font-family: 'Museo Sans', 'Lato', sans-serif;
   font-weight: 100 !important;
@@ -18,8 +20,8 @@ body, p {
 
 blockquote {
   color: #aaa !important;
-  border-left: #aaa 0.4em solid;
-  font-size: 1.5em !important;
+  border-left: #aaa 0.4em solid !important;
+  font-size: 2em !important;
   font-family: 'Domine', serif !important;
 }
 
@@ -33,11 +35,11 @@ header {
 */
 
 a {
-  color: rgb(35,135,158);
+  color: rgb(35,135,158) !important;
 }
 
 a:hover {
-  color: rgb(49,53,64);
+  color: rgb(49,53,64) !important;
 }
 
 /* THEME OVERRIDES */
