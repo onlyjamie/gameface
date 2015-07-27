@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   text-transform: none;
 }
 
-h3 { color: #ff9933 !important; }
+.footer-widgets h3 { color: #ff9933 !important; }
 
 body, p {
   font-family: 'Museo Sans', 'Lato', sans-serif;
