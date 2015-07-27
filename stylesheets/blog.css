@@ -34,11 +34,11 @@ header {
 .nav { background-color: #ff9933; color: #fafafa; }
 */
 
-a {
+.content a {
   color: rgb(35,135,158) !important;
 }
 
-a:hover {
+.content a:hover {
   color: rgb(49,53,64) !important;
 }
 
