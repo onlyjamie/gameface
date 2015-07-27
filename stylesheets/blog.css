@@ -18,8 +18,8 @@ header {
   max-height: 50rem !important;
 }
 
-.blog-logo img {
-  max-width: 75%;
+.blog-logo {
+  max-width: 250px !important;
 }
 
 a {
