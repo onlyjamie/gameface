@@ -4,12 +4,12 @@ h1, h2, h3, h4, h5, h6, h7 {
   text-transform: none;
 }
 
-body, p, footer {
+body, p {
   font-family: 'Museo Sans', 'Lato', sans-serif;
   font-weight: 100 !important;
 }
 
-.page-description {
+.page-description, footer {
   font-family: 'Museo Sans', 'Lato', sans-serif !important; 
   font-weight: normal;
 }
