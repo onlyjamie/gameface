@@ -9,7 +9,7 @@ body, p {
 }
 
 header {
-  max-height: 75% !important;
+  max-height: 50rem !important;
 }
 
 a {
@@ -23,4 +23,8 @@ a:hover {
 .nav {
   background-color: #ff9933;
   color: #fafafa;
+}
+
+.menu-button:active {
+  background-color: #ff9933;
 }
