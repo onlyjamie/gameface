@@ -49,6 +49,7 @@ header {
 .navbar-default .navbar-brand {
   color: #ff9933;
   display: table;
+  height: 80px;
 }
 
 .nav>li>a {
