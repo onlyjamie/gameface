@@ -29,7 +29,7 @@ header {
   max-height: 50rem !important;
 }
 
-.navbar-brand img { display: table-cell; vertical-align: middle; max-width: 250px !important; max-height: 30px;} 
+.navbar-brand img { max-width: 250px !important; max-height: 30px;} 
 /* .nav { background-color: #ff9933; color: #fafafa; } */
 
 .content a {
@@ -48,8 +48,15 @@ header {
 
 .navbar-default .navbar-brand {
   color: #ff9933;
+}
+
+.navbar-default {
   display: table;
   height: 80px;
+}
+
+.navbar-brand {
+  display: table-cell; vertical-align: middle;
 }
 
 .nav>li>a {
