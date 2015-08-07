@@ -1,7 +1,7 @@
 /* GENERAL STYLES */
 
 h1, h2, h3, h4, h5, h6, h7 {
-  font-family: 'Domine', serif !important;
+  font-family: 'Museo Sans', 'Lato', sans-serif !important;
   font-weight: bold;
   text-transform: none;
 }
@@ -9,12 +9,12 @@ h1, h2, h3, h4, h5, h6, h7 {
 .footer-widgets h3 { color: #ff9933; }
 
 body, p {
-  font-family: 'Museo Sans', 'Lato', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-weight: 100 !important;
 }
 
 .page-description, .post-meta, .pagination, footer {
-  font-family: 'Museo Sans', 'Lato', sans-serif !important; 
+  font-family: 'Abel', sans-serif !important; 
   font-weight: normal;
 }
 
@@ -29,7 +29,7 @@ header {
   max-height: 50rem !important;
 }
 
-.navbar-brand img { max-width: 250px !important; max-height: 25px;} 
+.navbar-brand img { display: table-cell; vertical-align: middle; max-width: 250px !important; max-height: 30px;} 
 /* .nav { background-color: #ff9933; color: #fafafa; } */
 
 .content a {
@@ -48,6 +48,7 @@ header {
 
 .navbar-default .navbar-brand {
   color: #ff9933;
+  display: table;
 }
 
 .nav>li>a {
@@ -66,4 +67,9 @@ header {
 
 .footer {
   background: rgb(49,53,64);
+}
+
+.pagination {
+  text-align: center;
+}
 }
