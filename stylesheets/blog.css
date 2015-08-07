@@ -50,15 +50,6 @@ header {
   color: #ff9933;
 }
 
-.navbar-default {
-  display: table;
-  height: 80px;
-}
-
-.navbar-brand {
-  display: table-cell; vertical-align: middle;
-}
-
 .nav>li>a {
   color: #787870 !important;
 }
