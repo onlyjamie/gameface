@@ -54,6 +54,10 @@ header {
   color: #787870 !important;
 }
 
+.navbar-nav > li > a {
+  line-height: 60px !important;
+}
+
 .first-article {
   height: 50%;
   margin-bottom: 1px;
