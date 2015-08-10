@@ -42,7 +42,7 @@ header {
 
 /* THEME OVERRIDES */
 .navbar {
-  background: rgb(29,32,41);
+  background: rgba(255,255,255,0.8);
   border-bottom: 5px solid #ff9933;
 }
 
