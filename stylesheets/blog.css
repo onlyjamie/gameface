@@ -38,7 +38,7 @@ header {
 }
 
 .content a:hover {
-  color: rgb(49,53,64) !important;
+  color: #ff9933 !important;
 }
 
 /* THEME OVERRIDES */
@@ -52,7 +52,12 @@ header {
 }
 
 .nav>li>a {
-  color: #787870 !important;
+  color: #807F78;
+  font-family: 'Abel', sans-serif;
+}
+
+.nav > li > a:hover {
+  color: #ff9933;
 }
 
 .navbar-nav > li > a {
