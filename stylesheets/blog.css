@@ -22,9 +22,8 @@ code {
 }
 
 blockquote, blockquote p {
-  color: #aaa !important;
-  font-size: 2.5em !important;
-  font-family: 'Museo Sans', sans-serif !important;
+  color: #ff9933 !important;
+  font-size: 1.5em !important;
 }
 
 header {
