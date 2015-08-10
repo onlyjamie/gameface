@@ -52,12 +52,12 @@ header {
 }
 
 .nav>li>a {
-  color: #807F78;
+  color: #807F78 !important;
   font-family: 'Abel', sans-serif;
 }
 
 .nav > li > a:hover {
-  color: #ff9933;
+  color: #ff9933 !important;
 }
 
 .navbar-nav > li > a {
