@@ -17,11 +17,9 @@ a:hover { color: #ff9933; }
   max-width: 850px;
   margin-left: auto;
   margin-right: auto;
-  background: #fafafa;
 }
 .request-print {
     box-shadow: 0 2px 7px rgba(0,0,0,0.3);
-    background-image: url('https://d35l3oybk21k7h.cloudfront.net/photos/photos/26734668_race_0.9398541373492305.display.jpg') !important;
     background-position: center;
     background-size: cover;
     border-radius: 3px;
@@ -38,6 +36,14 @@ a:hover { color: #ff9933; }
     top: 5%;
     white-space: normal;
     z-index: 999;
+}
+
+.horizontal {
+  background-image: url('https://d35l3oybk21k7h.cloudfront.net/photos/photos/26734668_race_0.9398541373492305.display.jpg') !important;
+}
+
+.vertical {
+    background-image: url('https://d35l3oybk21k7h.cloudfront.net/photos/photos/26873839_race_0.7980242810719197.display.jpg') !important;
 }
 
 form.modal {
