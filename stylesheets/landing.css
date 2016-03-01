@@ -1,36 +1,17 @@
 body {
   font-family: 'Montserrat', sans-serif !important;
-  background-color: #eeeee9 !important;
+  background-color: #fff !important;
 }
 
 a { 
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Abel', sans-serif !important;
+  color: #23879e;
+  text-decoration: underline;
 }
 
 a:hover { color: #ff9933; }
 
-header.navigation {
-  background-color: #313540 !important;
-  border-bottom: 5px solid #FF9933;
-}
-
-.subtitle {
-  background-image: url('http://i.imgur.com/eZjuz5j.jpg');
-  height: 15em;
-  background-size: cover;
-  background-position: center top;
-  margin-top: -2px;
-  margin-bottom: -100px !important; 
-  position: relative;
-  display: table;
-  width: 100%;
-}
-
 @media only screen and (max-device-width: 480px) {
-  .header-logo img {
-    max-width: 50%;
-  }
-  
   .container {
     margin-top: 0 !important;
   }
