@@ -48,7 +48,16 @@ form { display: inline-block; }
     box-shadow: 0 2px 7px rgba(0,0,0,0.7);
 }
 
+h1 {
+  color: #ff9933; 
+  text-transform: uppercase;
+  text-shadow: 0 1px #000;
+}
 
+.email {
+  color: #313540;
+  font-family: 'Abel', sans-serif;
+}
 
 /* NIKE OVERRIDES */
 .control, .controls-highlight, .bulk-actions, .sharing-toolbar, .bulk-actions, .control.control-highlight, .sharing-toolbar, .controls-highlight:hover, .bulk-actions:hover, .sharing-toolbar:hover, .control:hover {
