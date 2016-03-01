@@ -18,7 +18,7 @@ a:hover { color: #ff9933; }
   
   
 /* PRINT MODAL OVERRIDES */
-.request-print .modal {
+.embed-page .request-print .modal {
     background-color: rgba(255,255,255,0.7);
     background-image: url('https://d35l3oybk21k7h.cloudfront.net/photos/photos/26734668_race_0.9398541373492305.display.jpg') !important;
     background-size: cover;
@@ -26,7 +26,7 @@ a:hover { color: #ff9933; }
     border-top: none !important;
     box-shadow: 0 2px 7px rgba(0,0,0,0.7);
 }
-.modal .images { display: none; }
+.embed-page .request-print .modal .images { display: none; }
 
 
 
