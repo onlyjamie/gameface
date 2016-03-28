@@ -1,0 +1,129 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #fff !important;
+  line-height: 1.5;
+}
+
+a {
+  font-weight: light;
+  color: #23879e;
+  text-decoration: underline;
+}
+
+a:hover { color: #ff9933; }
+
+/* PRINT MODAL */
+.container {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.request-print {
+    box-shadow: 0 2px 7px rgba(0,0,0,0.3);
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    border-top: none !important;
+    left: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 475px;
+    max-width: 85%;
+    min-width: 270px;
+    min-height: 450px;
+    position: relative;
+    right: 0;
+    top: 5%;
+    white-space: normal;
+    z-index: 999;
+}
+
+.horizontal {
+  background-image: url('https://d35l3oybk21k7h.cloudfront.net/photos/photos/26734668_race_0.9398541373492305.display.jpg') !important;
+}
+
+.vertical {
+    background-image: url('https://d35l3oybk21k7h.cloudfront.net/photos/photos/26873839_race_0.7980242810719197.display.jpg') !important;
+}
+
+form.modal {
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.92);
+    border-radius: 3px;
+    left: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
+    height: 379px;
+    padding: 3em;
+    position: relative;
+    right: 0;
+    top: 15%;
+    white-space: normal;
+    z-index: 999;
+}
+
+form { display: inline-block; }
+
+/* PRINT MODAL OVERRIDES */
+
+.modal h1 {
+  color: #ff9933;
+  text-align: center;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-shadow: 0 1px #000;
+}
+
+.email {
+  color: #313540;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.2em;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  margin: 5px 2px;
+  padding: 10px;
+  width: 49%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  appearance: none;
+  box-shadow: none;
+  border: 0 none;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+input[type="submit"]:focus {
+  outline: none;
+}
+.order-print {
+  background: #23879e;
+}
+
+.order-print:hover, .order-print:focus {
+  background: rgb(38,191,78);
+}
+
+.cancel:hover, .cancel:focus {
+  background: #696969;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 500px) {
+  .container {
+    margin-top: 0 !important;
+  }
+
+  .email {
+    font-size: 1em !important;
+  }
+
+  input[type="submit"] {
+    width: 100% !important;
+  }
+}
